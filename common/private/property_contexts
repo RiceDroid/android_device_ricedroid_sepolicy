@@ -11,3 +11,9 @@ persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
 
 # Wi-Fi Display
 media.wfd.                             u:object_r:media_wfd_prop:s0
+
+# Boot animation dynamic colors
+persist.bootanim.color1     u:object_r:bootanim_system_prop:s0     exact    int
+persist.bootanim.color2     u:object_r:bootanim_system_prop:s0     exact    int
+persist.bootanim.color3     u:object_r:bootanim_system_prop:s0     exact    int
+persist.bootanim.color4     u:object_r:bootanim_system_prop:s0     exact    int
